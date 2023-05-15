@@ -1,5 +1,5 @@
 function calcularColor(num) {
-    var color;
+    let color;
     if (num === 1) {
       color = "negro";
     } else if (num === 2) {
