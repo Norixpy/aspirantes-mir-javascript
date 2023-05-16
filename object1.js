@@ -1,4 +1,4 @@
-// Crear el objeto 'pedro'
+// Crear el objeto '
 let pedro = {
     nombre: "Pedro Perez",
     edad: 30,
@@ -6,18 +6,18 @@ let pedro = {
     hobbies: ["programar", "squash", "piano"],
   };
   
-  // Imprimir el valor de la llave 'edad'
+  // Imprimir el valor de la llave edad
   console.log(pedro.edad);
   
-  // Agregar la propiedad 'estatura'
+  // Agregar la propiedad estatura
   pedro.estatura = 1.8;
   
-  // Eliminar la propiedad 'activo'
+  // Eliminar la propiedad activo
   delete pedro.activo;
   
   // Recorrer todas las propiedades e imprimir en consola
-  for (let key in pedro) {
-    console.log(key + ": " + pedro[key]);
+  for (let llave in pedro) {
+    console.log(llave + ": " + pedro[llave]);
   }
   
   // Agregar la función 'saluda'
